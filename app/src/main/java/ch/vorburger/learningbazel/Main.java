@@ -1,11 +1,10 @@
 package ch.vorburger.learniningbazel;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println(greeting());
-    }
+import ch.vorburger.lib.Lib;
 
-    static String greeting() {
-        return "hello, world";
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println(Lib.greeting());
     }
 }

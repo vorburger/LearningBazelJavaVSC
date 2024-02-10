@@ -17,6 +17,8 @@
     "bazel-bin": false,
     "bazel-java-one": false,
     "bazel-out": false,
-    "bazel-testlogs": false
+    "bazel-testlogs": false,
+    "bazel-LearningBazelJavaVSC": false
+    ".git": false,
   }
 }
