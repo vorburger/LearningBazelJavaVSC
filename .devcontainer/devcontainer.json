@@ -11,8 +11,8 @@
 			"installMaven": "false",
 			"installGradle": "false"
 		},
-		"ghcr.io/balazs23/devcontainers-features/bazel:1": {
-			"bazelisk": "latest"
+		"ghcr.io/devcontainers-community/features/bazel:1": {
+                        "bazelisk_version": "v1.19.0"
 		}
 	}
 
