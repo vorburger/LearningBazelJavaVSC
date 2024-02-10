@@ -1,3 +1,10 @@
 {
-  "recommendations": ["bazelbuild.vscode-bazel", "sfdc.bazel-vscode-java"]
+  "recommendations": [
+    "bazelbuild.vscode-bazel",
+    "redhat.java",
+    "sfdc.bazel-vscode-java"
+  ],
+  "unwantedRecommendations": [
+    "vscjava.vscode-java-pack"
+  ]
 }
