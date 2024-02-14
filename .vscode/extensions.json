@@ -2,9 +2,8 @@
   "recommendations": [
     "bazelbuild.vscode-bazel",
     "redhat.java",
-    "sfdc.bazel-vscode-java"
+    "sfdc.bazel-vscode-java",
+    "josevseb.google-java-format-for-vs-code"
   ],
-  "unwantedRecommendations": [
-    "vscjava.vscode-java-pack"
-  ]
+  "unwantedRecommendations": ["vscjava.vscode-java-pack"]
 }

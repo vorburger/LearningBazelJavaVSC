@@ -18,7 +18,15 @@
     "bazel-java-one": false,
     "bazel-out": false,
     "bazel-testlogs": false,
-    "bazel-LearningBazelJavaVSC": false
-    ".git": false,
+    "bazel-LearningBazelJavaVSC": false,
+    ".git": false
+  },
+  "java.format.settings.google.extra": "--aosp", // For 4 instead of 2 spaces!
+  "java.format.settings.google.version": "1.19.2",
+  "[java]": {
+    "editor.tabSize": 4,
+    // Format Java using https://github.com/google/google-java-format,
+    // via https://github.com/JoseVSeb/google-java-format-for-vs-code
+    "editor.defaultFormatter": "josevseb.google-java-format-for-vs-code"
   }
 }
