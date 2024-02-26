@@ -11,6 +11,7 @@
     "**/.factorypath": true,
     "**/.project": true,
     "**/.settings": true,
+    "**/*.crswap": true,
     ".eclipse": false,
     ".vscode": false,
     "src": false,
@@ -19,10 +20,15 @@
     "bazel-out": false,
     "bazel-testlogs": false,
     "bazel-LearningBazelJavaVSC": false,
-    ".git": false
+    ".git": false,
+    ".devcontainer": false,
+    "app": false,
+    "lib": false
   },
   "java.format.settings.google.extra": "--aosp", // For 4 instead of 2 spaces!
   "java.format.settings.google.version": "1.19.2",
+  // https://github.com/salesforce/bazel-vscode-java/blob/main/docs/troubleshoot.md#lightweight-java-mode
+  "java.server.launchMode": "Standard",
   "[java]": {
     "editor.tabSize": 4,
     // Format Java using https://github.com/google/google-java-format,
